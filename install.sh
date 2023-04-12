@@ -13,4 +13,4 @@ mkdir /opt/push
 cp pushover.sh /opt/push/
 cp sshlogin.sh /usr/local/bin/
 echo "session optional pam_exec.so seteuid /usr/local/bin/sshlogin.sh" >> /etc/pam.d/sshd
-echo installed
+echo sshlogin2pushover installed
