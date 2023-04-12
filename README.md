@@ -1,7 +1,7 @@
 # sshlogin2pushover
 ### Decription
-This script automatically sends a notification to pushover when SSH login to the server. <br>
-This can have some advantages in security,
+> This script automatically sends a notification to pushover when SSH login to the server. <br>
+> This can have some advantages in security,
 #### To install, clone the repository
 ```bash
 git clone https://git.moelle.space/ymoelle/sshlogin2pushover.git
