@@ -4,7 +4,7 @@
 > This can have some advantages in security,
 #### To install, clone the repository
 ```bash
-git clone https://git.moelle.space/ymoelle/sshlogin2pushover.git
+git clone https://git.moelle.space/hxcde/sshlogin2pushover.git
 ```
 #### Start the install script
 ```bash
