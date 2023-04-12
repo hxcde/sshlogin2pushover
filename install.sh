@@ -1,10 +1,10 @@
 echo starting install
 echo Enter your API Key/Token:
 read apikey
-echo APIKEY="'$apikey'"" | cat - sshlogin.sh > temp && mv temp sshlogin.sh
+echo APIKEY="'$apikey'" | cat - sshlogin.sh > temp && mv temp sshlogin.sh
 echo Enter your User Token:
 read userkey
-echo USERKEY="'$userkey'"" | cat - sshlogin.sh > temp && mv temp sshlogin.sh
+echo USERKEY="'$userkey'" | cat - sshlogin.sh > temp && mv temp sshlogin.sh
 echo '#!/bin/bash' | cat - sshlogin.sh > temp && mv temp sshlogin.sh
 chmod +x sshlogin.sh
 chmod +x pushover.sh
