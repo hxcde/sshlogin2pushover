@@ -7,7 +7,7 @@ git clone https://git.moelle.space/ymoelle/sshlogin2pushover.git
 ```bash
 sh sshlogin2pushover/install.sh
 ```
-###Enter your API Key and User Token [^1]
+###Enter your API Key and User Token
 
 if you want to uninstall, just run the uninstall.sh
 ```bash
