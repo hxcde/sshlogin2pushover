@@ -1,3 +1,4 @@
+#!/bin/bash
 echo starting install
 echo Enter your API Key/Token:
 read apikey
