@@ -1,3 +1,4 @@
+#!/bin/bash
 echo starting uninstall
 rm -rf /opt/push
 rm /usr/local/bin/sshlogin.sh
