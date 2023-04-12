@@ -1,5 +1,5 @@
 #!/bin/bash
-echo starting install
+echo Startiing installation
 echo Enter your API Key/Token:
 read apikey
 echo APIKEY="'$apikey'" | cat - sshlogin.sh > temp && mv temp sshlogin.sh
