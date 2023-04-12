@@ -8,3 +8,9 @@ Start the install script
 sh sshlogin2pushover/install.sh
 ```
 Enter your API Key and User Token
+
+
+if you want to uninstall, just run the uninstall.sh
+```bash
+sh sshlogin2pushover/uninstall.sh
+```
