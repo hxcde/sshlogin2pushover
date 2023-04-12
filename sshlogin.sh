@@ -2,5 +2,5 @@
 if [ "$PAM_TYPE" != "close_session" ]; then
         host="`hostname`"
         message="`env`"
-        sh /root/push/pushover.sh -u [userkey] -a [apikey/token] "SSH Login: $PAM_USER from $PAM_RHOST on $host"
+        sh pushover.sh -u [userkey] -a [apikey/token] "SSH Login: $PAM_USER from $PAM_RHOST on $host"
 fi
